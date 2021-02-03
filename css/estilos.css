@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:url(../img/logo.png);
+    background-position:center center;
+    background-attachment: fixed;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.cronometro {
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.botones {
+    margin: 15px 0;
+}
+
+.boton {
+    padding: 5px 10px;
+    background-color: rgb(22, 216, 216);
+    color:#fff;
+    border: none;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 18px;
+    border-radius: 3px;
+    transition: background-color .3s ease-in;
+    outline: none;
+}
+
+.boton:hover {
+    background-color: #fff;
+    cursor: pointer;
+    color:rgb(22, 216, 216);
+    border:1px solid rgb(22, 216, 216);
+}
+
+#dhms {
+    font-size:50px;
+    color:#000;
+}
+
+.dia::after {
+    content:"di";
+    color:#000;
+    font-size: 18px;
+    position: relative;
+    left: 0px;
+}
+
+.horas::after {
+    content:"hor";
+    color:#000;
+    font-size: 18px;
+    position: relative;
+    left: 0px;
+}
+
+.minuto::after {
+    content:"min";
+    color:#000;
+    font-size: 18px;
+    position: relative;
+    left: 0px;
+}
+
+.segundo::after {
+    content:"seg";
+    color:#000;
+    font-size: 18px;
+    position: relative;
+    left: 0px;
+}
+
+
+
+
